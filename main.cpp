@@ -11,7 +11,7 @@ int main()
     cin >> upto;
 
     //Sort out all prime numbers within the range
-    for(num=2; num<=upto; num++){
+    for(num=2; num<upto; num++){
         for(i=2; i<=(num / 2); i++){
             if(num%i==0){
                 i=num;
